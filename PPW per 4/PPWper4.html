@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nasi Padang Cak Mini</title>
+  <link rel="stylesheet" href="Style1.css" />
+</head>
+<body>
+  <header>
+    <h1>Nasi Padang Cak Mini</h1>
+    <p>NPCI</p>
+  </header>
+
+  <section class="menu">
+    
+  </section>
+
+  <section class="gallery">
+    <h2>Menu NPCI</h2>
+    <div class="gallery-grid">
+      <img src="Ayam Bakar.jpg" alt="Ayam Bakar">
+      <img src="Ayam Pop.jpg" alt="Ayam Pop">
+      <img src="Sotong Padang.jpg" alt="Sotong Padang">    
+    </div>
+  </section>
+  <section class="menu">
+  <div class="menu-list">
+    <div class="menu-item">
+      <h3><a href="AyamBAKAR.html" target="_blank">AyamBAKAR</a></h3>
+      <p>Rp 10.000</p>
+      <label>Jumlah: <input type="number" value="0" min="0" class="qty" data-price="10000"></label>
+    </div>
+    <div class="menu-item">
+      <h3><a href="AyamPop.html" target="_blank">Ayam Pop</a></h3>
+      <p>Rp 10.000</p>
+      <label>Jumlah: <input type="number" value="0" min="0" class="qty" data-price="10000"></label>
+    </div>
+    <div class="menu-item">
+      <h3><a href="Sotong Padang.html" target="_blank">Sotong Padang</a></h3>
+      <p>Rp 20.000</p>
+      <label>Jumlah: <input type="number" value="0" min="0" class="qty" data-price="20000"></label>
+    </div>
+  </div>
+
+  <button id="orderBtn">Mari di Pesan</button>
+  
+  <!-- Tambahkan ini -->
+  <div id="orderSummary">
+    <p><strong>Total Harga:</strong> Rp <span id="totalPrice">0</span></p>
+  </div>
+
+  <button id="checkoutBtn">ORDER</button>
+  <button id="resetBtn">RESET</button>
+
+
+<div id="checkoutResult" style="display:none; margin-top: 20px; padding: 1em; background-color: #f0fff0; border: 1px solid #ccc; border-radius: 10px;">
+  <h3>Total Pesanan :</h3>
+  <ul id="checkoutList"></ul>
+  <p><strong>Total:</strong> <span id="checkoutTotal"></span></p>
+  <a id="waLink" target="_blank">Ke WhatsApp Aja</a>
+</div>
+
+  
+
+  <footer>
+    <p>📍 Jl.Raya Hankam Puri Assadiyah, Kota Bekasi | ☎ 0821-3575-0744 </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

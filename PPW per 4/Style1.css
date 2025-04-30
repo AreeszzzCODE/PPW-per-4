@@ -1,0 +1,145 @@
+#orderBtn {
+    display: none;
+  }
+  
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f5f0;
+    color: #333;
+  }
+  
+  header {
+    background: #f77903;
+    color: white;
+    padding: 1em;
+    text-align: left;
+    }
+  
+  .menu {
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+  }
+  
+  .menu-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 150px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+
+button#orderBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f56804;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button#orderBtn:hover {
+    background-color: #5a3f2e;
+  }
+
+  .gallery {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+  }
+  
+  .gallery-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  #orderSummary {
+    margin-top: 20px;
+    padding: 1em;
+    background: #fff4e6;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .menu-item label {
+    display: block;
+    margin-top: 10px;
+  }
+  .menu-item input {
+    width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  #checkoutBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #checkoutBtn:hover {
+    background-color: #1b5e20;
+  }
+  
+  #checkoutResult a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+
+  #resetBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #resetBtn:hover {
+    background-color: #7f0000;
+  }
